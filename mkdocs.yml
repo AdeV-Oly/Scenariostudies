@@ -1,13 +1,15 @@
 site_name: Scenariostudies
-site_url: https://AdeV-Oly.github.io
-site_author: Albert de Vries
-site_description: Github Pages pagina voor Kennisbasis modellen - Voeding.
-
+site_url: https://github.com/AdeV-Oly/Scenariostudies/
 nav:
-  - About: index.md
+    - Home: index.md
+    - Version 2.x:
+        - Getting Started: v2/getting-started.md
+        - Types:
+            - Comments: v2/types/comments.md
+    - Version 1.x:
+        - Types:
+            - Comments: v1/types/comments.md
+            - Posts: v1/types/posts.md
 
-theme:
-  name: readthedocs
-  highlightjs:  true
-  jljs_languages:
-    - yaml
+
+theme: readthedocs
