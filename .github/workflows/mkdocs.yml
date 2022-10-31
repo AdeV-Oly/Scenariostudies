@@ -1,0 +1,13 @@
+site_name: My Docs
+site_url: https://adev-oly.github.io/Scenariostudies/
+site_author: you
+site_description: Voorbeeld Github pagina voor de Scenariostudies - Voeding. Site: https://adev-oly.github.io/Scenariostudies/
+
+nav:
+  - About: index.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
